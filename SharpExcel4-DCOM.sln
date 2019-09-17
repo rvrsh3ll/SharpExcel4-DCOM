@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpExcel4-DCOM", "SharpExcel4-DCOM\SharpExcel4-DCOM.csproj", "{68B83CE5-BBD9-4EE3-B1CC-5E9223FAB52B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68B83CE5-BBD9-4EE3-B1CC-5E9223FAB52B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B83CE5-BBD9-4EE3-B1CC-5E9223FAB52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B83CE5-BBD9-4EE3-B1CC-5E9223FAB52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B83CE5-BBD9-4EE3-B1CC-5E9223FAB52B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4571AD4-CDB3-469B-B87E-F97DF1BE5A86}
+	EndGlobalSection
+EndGlobal
