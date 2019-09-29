@@ -6,14 +6,31 @@ namespace SharpExcel4_DCOM
 {
     class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
             string computername = null;
+            bool showhelp = false;
             OptionSet opts = new OptionSet()
             {
                 { "computername=", "--computername", v=> computername = v },
+                { "h|?|help",  "Show available options", v => showhelp = v != null },
             };
+            try
+            {
+                opts.Parse(args);
+            }
+            catch (OptionException e)
+            {
+                Console.WriteLine(e.Message);
+            }
 
+            if (showhelp)
+            {
+                Console.WriteLine("RTFM");
+                opts.WriteOptionDescriptions(Console.Out);
+                Console.WriteLine("[*] Example: SharpExcel4-DCOM.exe --Method ShellWindows --ComputerName localhost");
+                return;
+            }
             try
             {
                 
