@@ -28,7 +28,7 @@ namespace SharpExcel4_DCOM
             {
                 Console.WriteLine("RTFM");
                 opts.WriteOptionDescriptions(Console.Out);
-                Console.WriteLine("[*] Example: SharpExcel4-DCOM.exe --Method ShellWindows --ComputerName localhost");
+                Console.WriteLine("[*] Example: SharpExcel4-DCOM.exe --ComputerName localhost");
                 return;
             }
             try
